@@ -1,0 +1,46 @@
+.aboutus-content {
+    width: 100%;
+}
+
+.aboutus-content_about {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: right;
+}
+
+.aboutus-content_thermometer {
+    margin: 2rem 4rem;
+}
+
+.aboutus-content_thermometer img {
+    height: 650px;
+}
+
+.aboutus-content_history {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    text-align: left;
+}
+
+.aboutus-content_about p,
+.aboutus-content_history p {
+    margin: 2rem 0;
+}
+
+@media screen and (max-width: 980px) {
+    .aboutus-content {
+        flex-direction: column;
+    }
+
+    .aboutus-content_thermometer img  {
+        height: 450px;
+    }
+}

@@ -1,0 +1,41 @@
+.ceo-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.ceo-content_quote {
+    display: flex;
+}
+
+.ceo-content_quote img {
+    width: 47px;
+    height: 40px;
+    margin: 0 1rem 1rem 0;
+}
+
+.ceo-sign {
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.ceo-sign p:first-child {
+    font-family: var(--font-secondary);
+    color: var(--color-primary);
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+}
+
+.ceo-sign img {
+    width: 200px;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 650px) {
+    .ceo-sign img {
+        width: 80%;
+    }
+}

@@ -1,0 +1,7 @@
+.header {
+    background-color: var(--color-black);
+}
+
+.thermometer_img {
+    width: 45px;
+}
